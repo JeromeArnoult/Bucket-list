@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1c7b272-ff42-44a3-a329-4d03e603d1d3" name="Changes" comment="crée le contrôleur de base et 2 méthodes">
+    <list default="true" id="a1c7b272-ff42-44a3-a329-4d03e603d1d3" name="Changes" comment="crée deux fichiers twig pour mes tamplates">
+      <change afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/inc/nav.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/MainController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/MainController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/main/home.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/main/home.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/main/test.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/main/test.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,12 +23,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "JeromeArnoult"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;JeromeArnoult&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -224,7 +226,8 @@
       <workItem from="1707733671620" duration="550000" />
       <workItem from="1707735141843" duration="857000" />
       <workItem from="1707736022573" duration="692000" />
-      <workItem from="1707737050814" duration="732000" />
+      <workItem from="1707737050814" duration="5651000" />
+      <workItem from="1707747254116" duration="2942000" />
     </task>
     <task id="LOCAL-00001" summary="crée le contrôleur de base et 2 méthodes">
       <option name="closed" value="true" />
@@ -234,7 +237,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707737141715</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="crée deux fichiers twig pour mes tamplates">
+      <option name="closed" value="true" />
+      <created>1707737975828</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1707737975828</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,6 +264,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="crée le contrôleur de base et 2 méthodes" />
-    <option name="LAST_COMMIT_MESSAGE" value="crée le contrôleur de base et 2 méthodes" />
+    <MESSAGE value="crée deux fichiers twig pour mes tamplates" />
+    <option name="LAST_COMMIT_MESSAGE" value="crée deux fichiers twig pour mes tamplates" />
   </component>
 </project>
