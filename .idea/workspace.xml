@@ -4,10 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1c7b272-ff42-44a3-a329-4d03e603d1d3" name="Changes" comment="crée deux fichiers twig pour mes tamplates">
-      <change afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/inc/nav.html.twig" afterDir="false" />
+    <list default="true" id="a1c7b272-ff42-44a3-a329-4d03e603d1d3" name="Changes" comment="améliore la structure de twig avec l'héritage">
+      <change afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/logo-512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/ListController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/list/create.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/list/details.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/list/list.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/main/aboutUs.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/MainController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/MainController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/inc/nav.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/inc/nav.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/main/home.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/main/home.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/main/test.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/main/test.html.twig" afterDir="false" />
     </list>
@@ -190,6 +201,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/wamp64/www/series&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -199,6 +211,14 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\Bucket-list\data" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\Bucket-list\public\img" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner configuration_file="$PROJECT_DIR$/phpunit.xml.dist" scope="XML" use_alternative_configuration_file="true" />
@@ -227,7 +247,13 @@
       <workItem from="1707735141843" duration="857000" />
       <workItem from="1707736022573" duration="692000" />
       <workItem from="1707737050814" duration="5651000" />
-      <workItem from="1707747254116" duration="2942000" />
+      <workItem from="1707747254116" duration="3217000" />
+      <workItem from="1707752814605" duration="4563000" />
+      <workItem from="1707758687837" duration="1227000" />
+      <workItem from="1707809084945" duration="16082000" />
+      <workItem from="1707894131577" duration="93000" />
+      <workItem from="1707894255561" duration="11088000" />
+      <workItem from="1707919437377" duration="1305000" />
     </task>
     <task id="LOCAL-00001" summary="crée le contrôleur de base et 2 méthodes">
       <option name="closed" value="true" />
@@ -245,7 +271,23 @@
       <option name="project" value="LOCAL" />
       <updated>1707737975828</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="crée deux fichiers twig pour mes tamplates">
+      <option name="closed" value="true" />
+      <created>1707750416134</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1707750416134</updated>
+    </task>
+    <task id="LOCAL-00004" summary="améliore la structure de twig avec l'héritage">
+      <option name="closed" value="true" />
+      <created>1707750470714</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1707750470714</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,6 +307,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="crée le contrôleur de base et 2 méthodes" />
     <MESSAGE value="crée deux fichiers twig pour mes tamplates" />
-    <option name="LAST_COMMIT_MESSAGE" value="crée deux fichiers twig pour mes tamplates" />
+    <MESSAGE value="améliore la structure de twig avec l'héritage" />
+    <option name="LAST_COMMIT_MESSAGE" value="améliore la structure de twig avec l'héritage" />
   </component>
 </project>

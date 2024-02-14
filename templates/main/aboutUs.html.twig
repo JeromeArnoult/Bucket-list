@@ -1,0 +1,30 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}
+
+{% endblock %}
+
+{% block body %}
+<h2> Origine : </h2>
+    <div class="aboutUs">
+
+        <div class="creators">
+            {% for creator in creators %}
+                <p>
+                    {{ ('Fabien' in creator.firstname)? '&hearts;' : '' }}
+                    {{ creator.firstname }}
+                    {{ creator.lastname }}
+                    {{ creator.dateOfBirth }}
+                    {{ creator.creatorOf }}
+                </p>
+
+                <div>
+                    <img src="{{ creator.picture }}" alt="Photo du creator">
+                </div>
+                <p>{{ creator.description }}</p>
+            {% endfor %}
+        </div>
+    </div>
+
+{% endblock %}
+

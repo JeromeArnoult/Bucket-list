@@ -1,0 +1,93 @@
+body {
+    background-attachment: fixed;
+    color: #EEE;
+    font-family: 'Crimson Text', serif;
+    background-color: #9AC7A7;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    /*overflow: auto;*/
+    min-height: 900px;
+    background-color: #7CA5B8;
+    max-width: 900px;
+    margin: 30px auto;
+    color:#A9DBB8;
+    border-radius: 100px 100px 50px 50px;
+
+
+}
+.creators {
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+}
+.aboutUs {
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
+    height:600px;
+    padding: 10px;
+}
+h1 {
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+nav {
+    width:880px ;
+    padding: 10px;
+    background-color: #EDDEA4;
+    text-align: center;
+    color:#0FA3B1;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff9b42;
+}
+
+img {
+    max-width: 100%;
+}
+
+body > .container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+header img {
+    height: 70px;
+}
+
+main {
+    flex: 1;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+}
+
+nav li {
+    margin-right: 1rem;
+}
+footer {
+    background-color: #EDDEA4;
+    border-bottom-left-radius: 100px ;
+    border-bottom-right-radius: 100px ;
+
+    width: 900px;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    color:#0FA3B1;
+}
+
