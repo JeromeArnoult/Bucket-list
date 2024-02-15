@@ -1,12 +1,17 @@
 {% extends 'base.html.twig' %}
 
 {% block title %}
-    todo afficher le détail de la todo | {{ parent() }}
+{{wish.title}} | {{ parent() }}
 
 {% endblock %}
 
 {% block body %}
-    <h2>todo: le titre de la todo</h2>
-    {# afficher toutes les infos de la series #}
+    <h2>{{ wish.title }}</h2>
+    <div>Crée le : {{ wish.dateCreated.format('Y-m-d H:i:s') }}</div>
+    <div>{{ wish.description }}</div>
 
+
+    {#  Ne marche pas !!
+        <div>{{ wish.dateCreated }}</div>
+    #}
 {% endblock %}

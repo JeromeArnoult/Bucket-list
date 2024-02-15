@@ -5,26 +5,22 @@
 {% endblock %}
 
 {% block body %}
-<h2> Origine : </h2>
-    <div class="aboutUs">
+<h2 class="titleAbout"> Origine : </h2>
 
         <div class="creators">
             {% for creator in creators %}
-                <p>
-                    {{ ('Fabien' in creator.firstname)? '&hearts;' : '' }}
-                    {{ creator.firstname }}
-                    {{ creator.lastname }}
-                    {{ creator.dateOfBirth }}
-                    {{ creator.creatorOf }}
-                </p>
+                <div class="card">
+                    <h3>{{ ('Fabien' in creator.firstname)? '&hearts;' : '' }} {{ creator.firstname }}  {{ creator.lastname }}</h3>
+                    <p class="creatorOf">Creator of :  {{ creator.creatorOf }} </p>
 
-                <div>
-                    <img src="{{ creator.picture }}" alt="Photo du creator">
+                    <p>Birth Date : {{ creator.dateOfBirth }}</p>
+                    <div>
+                        <img src="{{ creator.picture }}" alt="Photo du creator">
+                    </div>
+                    <p class="description">{{ creator.description }}</p>
                 </div>
-                <p>{{ creator.description }}</p>
             {% endfor %}
         </div>
-    </div>
 
 {% endblock %}
 

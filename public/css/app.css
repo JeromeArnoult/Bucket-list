@@ -9,38 +9,65 @@ body {
 .container {
     display: flex;
     /*overflow: auto;*/
-    min-height: 900px;
+    max-height: 850px;
     background-color: #7CA5B8;
-    max-width: 900px;
+    max-width: 1200px;
     margin: 30px auto;
     color:#A9DBB8;
     border-radius: 100px 100px 50px 50px;
 
 
 }
-.creators {
-    padding:10px;
-    display: flex;
-    flex-direction: column;
+.titleAbout{
+    margin-left: 50px;
+    color:#EDDEA4;
 }
-.aboutUs {
+.creators {
+    padding: 10px;
     display: flex;
     flex-direction: row;
-    overflow: auto;
-    height:600px;
-    padding: 10px;
+    justify-content: space-around;
+    height: 520px;
 }
+.card {
+    margin: 0;
+    width: 25%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 6px rgba(237,222,164,0.5);
+}
+.description {
+    margin: 20px 10px;
+}
+.card h3, p {
+    margin:0;
+    padding: 5px;
+
+}
+.card h3 {
+    margin-top:30px;
+}
+.card img {
+    border-radius: 5px;
+    box-shadow: 7px 11px 16px 3px rgba(85,85,85,0.5);
+}
+
 h1 {
     margin: 0;
     padding: 10px;
     text-align: center;
+    color:#EDDEA4;
 }
 nav {
-    width:880px ;
+    //width:880px ;
     padding: 10px;
-    background-color: #EDDEA4;
     text-align: center;
-    color:#0FA3B1;
+    font-size: 20px;
+
+
 }
 
 a {
@@ -73,21 +100,19 @@ main {
 nav ul {
     display: flex;
     list-style: none;
-    padding-left: 0;
+    margin: 0;
+    color:#EDDEA4;
 }
 
 nav li {
     margin-right: 1rem;
 }
 footer {
-    background-color: #EDDEA4;
-    border-bottom-left-radius: 100px ;
-    border-bottom-right-radius: 100px ;
 
-    width: 900px;
+    //width: 900px;
     text-align: center;
     height: 50px;
     line-height: 50px;
-    color:#0FA3B1;
+    color:#EDDEA4;
 }
 

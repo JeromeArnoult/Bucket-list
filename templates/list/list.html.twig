@@ -1,13 +1,24 @@
 {% extends 'base.html.twig' %}
 
 {% block body %}
-    <section>
-        todo: afficher les todo
+    <section class="wishes-list">
+        {% for wish in wishes %}
+        <artice>
+
+                <p>
+                    <a href="{{ path('list_details',{'id' : wish.id}) }}" title="View wish's details">
+                        <h2 class="wishTitle">{{ wish.id }}-{{ wish.title }}</h2><p>Par {{ wish.author }} le {{ wish.dateCreated.format('Y-m-d H:i:s') }}</p>
+                    </a>
+                </p>
+
+
+        </artice>
+        {% endfor %}
     </section>
 
 {% endblock %}
 
 {% block title %}
-    The best things toDo before die !!! | {{ parent() }}
+    The best wishes ! | {{ parent() }}
 
 {% endblock %}
