@@ -33,6 +33,7 @@ class ListController extends AbstractController
 
         $wish = new Wish();
         $wish->setDateCreated(new \DateTime());
+
         $wishForm = $this->createForm(WishType::class, $wish);
 
         $wishForm->handleRequest($request);
