@@ -16,11 +16,17 @@
 </head>
 
 <body>
+    <header>
+        {% include('inc/nav.html.twig') %}
+    </header>
+    {% for label, messages in app.flashes %}
+        {% for message in messages %}
+            <div class="flash flash-{{ label }}">
+                {{ message }}
+            </div>
+        {% endfor %}
+    {% endfor %}
     <div class="container">
-        <header>
-                <h1><a href="{{ path('main_home') }}"><img src="{{ asset('img/logo.svg') }}" alt="series!"></a>Bucket-List</h1>
-            {% include('inc/nav.html.twig') %}
-        </header>
         <main>
             {% block body %}{% endblock %}
         </main>

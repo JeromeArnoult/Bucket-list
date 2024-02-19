@@ -5,9 +5,9 @@
 {% endblock %}
 
 {% block body %}
-<h2 class="titleAbout"> Origine : </h2>
+<h2 class="titleAbout">Symfony's Creators : </h2>
+        <section class="creators">
 
-        <div class="creators">
             {% for creator in creators %}
                 <div class="card">
                     <h3>{{ ('Fabien' in creator.firstname)? '&hearts;' : '' }} {{ creator.firstname }}  {{ creator.lastname }}</h3>
@@ -20,7 +20,8 @@
                     <p class="description">{{ creator.description }}</p>
                 </div>
             {% endfor %}
-        </div>
+
+        </section>
 
 {% endblock %}
 

@@ -5,13 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1c7b272-ff42-44a3-a329-4d03e603d1d3" name="Changes" comment="Ajout connexion à la BDD">
-      <change afterPath="$PROJECT_DIR$/templates/list/cnx.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/normalize.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/normalize.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/ListController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ListController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/MainController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/MainController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/inc/nav.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/inc/nav.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/list/create.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/list/create.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/list/details.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/list/details.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/list/list.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/list/list.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/main/aboutUs.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/main/aboutUs.html.twig" afterDir="false" />
@@ -255,6 +255,11 @@
       <workItem from="1707930643540" duration="3042000" />
       <workItem from="1707939550259" duration="4138000" />
       <workItem from="1707984570637" duration="6018000" />
+      <workItem from="1708068010450" duration="12155000" />
+      <workItem from="1708185493721" duration="172000" />
+      <workItem from="1708191417715" duration="1500000" />
+      <workItem from="1708264050576" duration="675000" />
+      <workItem from="1708324077368" duration="740000" />
     </task>
     <task id="LOCAL-00001" summary="crée le contrôleur de base et 2 méthodes">
       <option name="closed" value="true" />

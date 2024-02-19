@@ -1,18 +1,15 @@
 {% extends 'base.html.twig' %}
 
 {% block body %}
-    <section class="wishes-list">
+    <h2>All Wishes : </h2>
+    <section class="list">
         {% for wish in wishes %}
-        <artice>
+            <article>
+                <a href="{{ path('list_details',{'id' : wish.id}) }}" title="View wish's details">
+                    <h2 class="wishTitle">{{ wish.id }}-{{ wish.title }}</h2></a>
+                <p>Par {{ wish.author }} le {{ wish.dateCreated.format('d-m-Y') }} </p>
 
-                <p>
-                    <a href="{{ path('list_details',{'id' : wish.id}) }}" title="View wish's details">
-                        <h2 class="wishTitle">{{ wish.id }}-{{ wish.title }}</h2><p>Par {{ wish.author }} le {{ wish.dateCreated.format('Y-m-d H:i:s') }}</p>
-                    </a>
-                </p>
-
-
-        </artice>
+            </article>
         {% endfor %}
     </section>
 

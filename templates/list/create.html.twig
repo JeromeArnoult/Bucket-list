@@ -1,14 +1,22 @@
 {% extends 'base.html.twig' %}
 
 {% block body %}
+    <section class="create">
     <div>
-        {# afficher le formulaire de creation #}
-        <h2>En cours de construction revenez plus tard !</h2>
-    </div>
 
+        <h2>Add your wishes !</h2>
+        {{form_start(wishForm)}}
+
+        {{ form_widget(wishForm) }}
+
+        <button>Create !</button>
+
+        {{ form_end(wishForm) }}
+    </div>
+    </section>
 {% endblock %}
 
 {% block title %}
-    Create new todo | {{ parent() }}
+    Add your wishes ! | {{ parent() }}
 
 {% endblock %}
