@@ -191,6 +191,20 @@ form div input{
     font-size: 20px;
     color:#EDDEA4;
 }
+select {
+    display: block;
+    width: 100%;
+    padding: 10px 0px;
+    border: none;
+    outline: none;
+
+    background-color: #333;
+    border-bottom: 3px solid #aaa;
+    font-size: 20px;
+    color:#EDDEA4;
+
+}
+
 form div textarea {
     width: 100%;
     height: 200px;

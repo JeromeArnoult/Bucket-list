@@ -8,12 +8,9 @@
 {% block body %}
 
     <section class="details">
-        <h2>{{ wish.title }}</h2>
-    <div>Crée le : {{ wish.dateCreated.format('Y-m-d H:i:s') }}, par {{ wish.author }}</div>
-    <div>{{ wish.description }}</div>
-
+            <h2>{{ wish.title }} {{ wish.category.name }}</h2>
+        <div>Crée le : {{ wish.dateCreated.format('Y-m-d H:i:s') }}, par {{ wish.author }}</div>
+        <div>{{ wish.description }}</div>
     </section>
-
-
 
 {% endblock %}
